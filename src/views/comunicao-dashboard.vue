@@ -1,32 +1,25 @@
 <template>
   <div class="comunicao-dashboard-container">
-    <menu-lateral rootClassName="menu-lateral-root-class-name"></menu-lateral>
-    <contedo-dashboard
+    <MenuLateral rootClassName="menu-lateral-root-class-name"></MenuLateral>
+    <ContedoDashboard
       rootClassName="contedo-dashboard-root-class-name"
-    ></contedo-dashboard>
+    ></ContedoDashboard>
   </div>
 </template>
 
-<script>
+<script setup>
 import MenuLateral from '../components/menu-lateral'
 import ContedoDashboard from '../components/contedo-dashboard'
 
-export default {
-  name: 'ComunicaoDashboard',
-  components: {
-    MenuLateral,
-    ContedoDashboard,
-  },
-  metaInfo: {
+const metaInfo = {
     title: 'Flash - Comunicação',
     meta: [
-      {
-        property: 'og:title',
-        content: 'Flash - Comunicação',
-      },
+        {
+            property: 'og:title',
+            content: 'Flash - Comunicação',
+        },
     ],
-  },
-}
+};
 </script>
 
 <style scoped>
