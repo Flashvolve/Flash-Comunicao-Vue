@@ -1,6 +1,7 @@
 <template>
   <div class="comunicao-dashboard-container">
     <menu-lateral rootClassName="menu-lateral-root-class-name"></menu-lateral>
+    <h1>Teste</h1>
     <contedo-dashboard
       rootClassName="contedo-dashboard-root-class-name"
     ></contedo-dashboard>
