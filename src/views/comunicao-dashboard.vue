@@ -32,6 +32,6 @@ export default {
   align-items: flex-start;
   flex-direction: row;
   justify-content: center;
-  background-color: F5F5F5;
+  background-color: #F5F5F5;
 }
 </style>
